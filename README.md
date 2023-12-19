@@ -25,6 +25,8 @@ Make sure you have the following tools installed:
 - Docker
 - Kubernetes (kubectl)
 - Helm (optional)
+- Spring Boot 3.2
+- openjdk:17-jdk-slim
 
 ## Project Structure
 

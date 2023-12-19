@@ -43,14 +43,20 @@ Provide details on how the Kubernetes deployment is configured. Include YAML fil
 
 Step-by-step guide on deploying the Spring Boot application to Kubernetes.
 
+
 ## Accessing the Service
 
 Once deployed, explain how to access the query service through the Load Balancer.
 
-## Contributing
+### API Endpoints
 
-Provide guidelines for contributing to this project.
+Describe the API endpoints available in your service:
 
-## License
+- **GET /api/query**: Retrieve query results.
+- **POST /api/query**: Submit a new query.
 
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+Example:
+
+```plaintext
+GET /api/query
+POST /api/query

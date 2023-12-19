@@ -1,0 +1,18 @@
+readinessProbe:
+  failureThreshold: 3
+  successThreshold: 1
+  httpGet:
+    path: /actuator/health/readiness
+    port: 8080
+    scheme: HTTP
+  initialDelaySeconds: 200
+  periodSeconds: 5
+livenessProbe:
+  failureThreshold: 3
+  successThreshold: 1
+  httpGet:
+    path: /actuator/health/liveness
+    port: 8080
+    scheme: HTTP
+  initialDelaySeconds: 600
+  periodSeconds: 5

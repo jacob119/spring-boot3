@@ -1,0 +1,33 @@
+trino:
+  datasource:
+    url: jdbc:trino://localhost:8080
+    username: trino
+    password:
+spring:
+  application:
+    name: spring3-demo
+  lifecycle:
+    timeout-per-shutdown-phase: 35s # default : 30sec
+server:
+  shutdown: graceful
+  port: 8080
+
+
+management:
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: health, info, metrics, prometheus
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      show-details: always
+      status:
+        http-mapping:
+          DOWN: 503
+          OUT_OF_SERVICE: 503
+          UNKNOWN: 200
+          UP: 200
+        order: DOWN, OUT_OF_SERVICE, UNKNOWN, UP

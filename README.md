@@ -1,4 +1,4 @@
-# Spring Boot Kubernetes Query Service
+# Spring Boot Kubernetes Trino Query Service
 
 This project demonstrates how to deploy a Spring Boot application on Kubernetes and expose it through a Load Balancer.
 

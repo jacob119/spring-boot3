@@ -1,57 +1,53 @@
-# Spring Boot 3 Demo Project
+# Spring Boot Kubernetes Query Service
 
-Short project description goes here.
+This project demonstrates how to deploy a Spring Boot application on Kubernetes and expose it through a Load Balancer.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
+- [Prerequisites](#prerequisites)
+- [Project Structure](#project-structure)
+- [Deployment](#deployment)
+  - [Kubernetes Configuration](#kubernetes-configuration)
+  - [Deploying to Kubernetes](#deploying-to-kubernetes)
+- [Accessing the Service](#accessing-the-service)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
-Provide a brief introduction to your project. Explain its purpose and main features.
+This project showcases a Spring Boot application deployed on Kubernetes, with a Load Balancer exposing a query service.
 
-## Features
+## Prerequisites
 
-Highlight the key features of your project.
+Make sure you have the following tools installed:
 
-## Getting Started
+- Docker
+- Kubernetes (kubectl)
+- Helm (optional)
 
-Provide instructions on how to get your project up and running.
+## Project Structure
 
-### Prerequisites
+Explain the structure of your project briefly.
 
-List any prerequisites or dependencies that need to be installed.
+## Deployment
 
-### Installation
+### Kubernetes Configuration
 
-Step-by-step guide on how to install and set up the project.
+Provide details on how the Kubernetes deployment is configured. Include YAML files or Helm charts if applicable.
 
-## Usage
+### Deploying to Kubernetes
 
-Provide examples and instructions on how to use your project.
+Step-by-step guide on deploying the Spring Boot application to Kubernetes.
 
-## Configuration
+## Accessing the Service
 
-Explain any configuration options and how to customize them.
+Once deployed, explain how to access the query service through the Load Balancer.
 
 ## Contributing
 
-Provide guidelines for contributing to your project.
+Provide guidelines for contributing to this project.
 
 ## License
 
 This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgements
-
-Mention any third-party libraries, tools, or resources you used or were inspired by.
-

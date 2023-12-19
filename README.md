@@ -58,5 +58,5 @@ Describe the API endpoints available in your service:
 Example:
 
 ```plaintext
-GET /api/query
+GET /api/v1/queries/trino?query={query}&mode=sync
 POST /api/query

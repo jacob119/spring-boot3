@@ -1,4 +1,4 @@
-# Project Title
+# Spring Boot 3 Demo Project
 
 Short project description goes here.
 
